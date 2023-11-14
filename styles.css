@@ -1,0 +1,123 @@
+body,
+html {
+  background-color: #000000;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(./Images/hogwarts.jpg);
+  min-height: 100%;
+}
+
+.pimg2 {
+  min-height: 400px;
+}
+
+.pimg3 {
+  min-height: 400px;
+}
+
+.pimg2-overlay {
+  background-image: url(./Images/envelop.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.4;
+}
+
+.pimg3-overlay {
+  background-image: url(./Images/books.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.4;
+}
+section {
+  text-align: center;
+  padding: 50px 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-stars {
+  position: relative;
+}
+
+.section-stars-overlay {
+  background-image: url(./Images/back.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  filter: grayscale(20%) sepia(80%) contrast(65%);
+  opacity: 0.3;
+}
+
+.section-text {
+  position: relative;
+  z-index: 1;
+  color: #e2c98b;
+  text-shadow: 0 0 2px black;
+}
+
+.section-dark {
+  background-color: #000000;
+  filter: contrast(95%);
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Caudex";
+  color: #c3b9a0;
+  text-shadow: 0 0 3px black;
+}
+
+.ptext .border {
+  background-color: black;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+}
